@@ -3,16 +3,25 @@ function countPositivesSumNegatives(input) {
     let newArr = []
     let sum = 0
     
-    for (i = 0; i < input.length; i++){
+  //  validating the input
+    if (input === null || input.length === 0){
+      return newArr
+    }
+
+    for (let i=0; i<input.length; i++){
       if (input[i] > 0){
-        counter += 1
+        counter++
       }else if(input[i] == 0){
         continue
-      }else {
+      }else if(input[i] < 0){
         sum += input[i]
       }
-      
     }
-  newArr.push(counter, sum)
-  return newArr
+
+    // preparing the output
+    newArr.push(counter)
+    newArr.push(sum)
+
+    return newArr
+  
 }
