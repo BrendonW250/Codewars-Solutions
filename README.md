@@ -2,8 +2,7 @@
 
 ![alt tag](https://github.com/BrendonW250/Codewars-Solutions/blob/master/codewarsUserName.png)
 ![alt tag](https://github.com/BrendonW250/Codewars-Solutions/blob/master/codewarsRankBreak.png)
-A repository filled with codewars challenges (kata). Currently Ranked #1305 on the global leaderboard, 
-Completed over 40+ challenges and Push 7 solutions every week.
+A repository filled with codewars challenges (kata). Completed over 40+ challenges and Push 7 solutions every week.
 
 ## How It's Made:
 
