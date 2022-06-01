@@ -14,4 +14,4 @@ function powersOfTwo(n){
         arr.push(2**i) //** means exponent */
     }
     return arr
-}
+ }
