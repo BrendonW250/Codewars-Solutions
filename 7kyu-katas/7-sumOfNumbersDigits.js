@@ -20,6 +20,6 @@ function sumDigits(number){
     arr.forEach(i => {
         sum += parseInt(i) //turning the sum into an integer
     })
-
+ 
     return sum
 }
