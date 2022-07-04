@@ -10,23 +10,18 @@
 
 // here is the solution
 function well(x){
-    // filter out any 'good' found and put it into a new array
-    let goodIdeas = x.filter(i => {
-        if(i === 'good'){
-            return i
+    let count = 0
+
+    for (let i=0; i<x.length; i++){
+        if (x[i] == 'good'){
+            count++
         }
-    })
-
-    // see how many 'good' was found
-    const howMany = goodIdeas.length
-
-    // conditions on what to return for each condition
-    if (howMany > 2){
+    }
+    if (count > 2){
         return 'I smell a series!'
-    }
-    if (howMany > 0){
+    }else if (count == 1 || count == 2){
         return 'Publish!'
+    }else if (count == 0){
+        return 'Fail!'
     }
-
-    return 'Fail!'
 }
