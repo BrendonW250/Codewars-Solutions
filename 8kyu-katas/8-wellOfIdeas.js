@@ -1,3 +1,5 @@
+
+
 // For every good kata idea there seem to be quite a few bad ones!
 
 // In this kata you need to check the provided array (x) for good ideas 'good' and bad 
@@ -9,7 +11,9 @@
 // checking if the string 'good' or 'bad' is in the array
 
 // here is the solution
-function well(x){
+
+
+function wellOfIdeas(x){
     let count = 0
 
     for (let i=0; i<x.length; i++){
@@ -17,11 +21,51 @@ function well(x){
             count++
         }
     }
-    if (count > 2){
-        return 'I smell a series!'
-    }else if (count == 1 || count == 2){
+    if (count > 0 && count <= 2){
         return 'Publish!'
-    }else if (count == 0){
+    }else if (count > 2){
+        return 'I smell a series!'
+    }else {
         return 'Fail!'
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function well(x){
+//     let count = 0
+
+//     for (let i=0; i<x.length; i++){
+//         if (x[i] == 'good'){
+//             count++
+//         }
+//     }
+//     if (count > 2){
+//         return 'I smell a series!'
+//     }else if (count == 1 || count == 2){
+//         return 'Publish!'
+//     }else if (count == 0){
+//         return 'Fail!'
+//     }
+// }
