@@ -15,5 +15,5 @@ function flattenAndSort(array){
             output.push(array[i][j])
         }
     }
-    return output.sort((a,b) => a-b)
+    return output.sort((a,b) => a-b) 
 }
