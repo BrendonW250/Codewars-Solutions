@@ -16,4 +16,4 @@ function flattenAndSort(array){
         }
     }
     return output.sort((a,b) => a-b) 
-}
+} 
