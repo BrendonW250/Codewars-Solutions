@@ -29,5 +29,5 @@ function isIsogram(str){
         return false
       }
     }
-    return true
+    return true 
   }
