@@ -2,7 +2,7 @@
 
 ![alt tag](https://github.com/BrendonW250/Codewars-Solutions/blob/master/newKataRankDisplay.png)
 ![alt tag](https://github.com/BrendonW250/Codewars-Solutions/blob/master/newProgressBreakdown.png)
-A repository filled with codewars challenges (kata). Completed over 40+ challenges and Push 7 solutions every week.
+A repository filled with codewars challenges (kata). Completed over 100+ challenges and Push at least 7 solutions every week.
 
 ## How It's Made:
 
