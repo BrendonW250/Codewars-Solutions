@@ -19,4 +19,4 @@ function factorial(n)
   }else {
     return n * factorial(n - 1) //recursion for getting the factorial of n
   }
-}
+} 
