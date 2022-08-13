@@ -33,14 +33,18 @@
 //     return arr
 // }
 function removeSmallest(numbers){
-    let arr = []
+   
+    // holds the original array
+    let num = numbers
 
-    let index = numbers.indexOf(Math.min(...numbers))
+    // get the smallest number in the original array and stores
+    // it into the variable 'smallest'
+    let smallest = numbers.indexOf(Math.min(...numbers))
 
-    for (let i=0; i<numbers.length; i++){
-        if (i !== index){
-            arr.push(numbers[i])
-        }
-    }
-    return arr
+    // removes the element that we found to be the smallest from the original
+    // array
+    num.splice(smallest, 1)
+
+    // return the updated array
+    return num
 }
