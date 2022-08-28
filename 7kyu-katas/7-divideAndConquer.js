@@ -10,7 +10,7 @@ function divCon(x){
     let sumReg = 0
     let sumString = 0
     let stringArray = []
-    let regArray = []
+    let regArray = [] 
     
     for (let i=0; i<x.length; i++){
       if (typeof x[i] == 'string'){
