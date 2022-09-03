@@ -12,7 +12,7 @@
 function findSum(n){
     //using to get the sum of divisible numbers of 3 and 5
     let arr = []
-
+ 
     //looping through every number leading up
     //to the inputted number
     for (let i=0; i<=n; i++){
