@@ -24,5 +24,5 @@ function number(array){
         result.push(`${i}: ` + array[i])
     }
 
-    return result 
+    return result  
 }
