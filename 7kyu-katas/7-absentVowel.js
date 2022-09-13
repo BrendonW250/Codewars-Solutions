@@ -14,7 +14,7 @@ function absentVowel(x){
     let vowels = ['a','e','i','o','u']
     let toArr = x.split('')
 
-    for (let i=0; i<vowels.length; i++){
+    for (let i=0; i<vowels.length; i++){ 
         //goes through each element in toArr array and compares those vowels present
         //with the vowels in the vowels array 
         //if it is included it returns true 
