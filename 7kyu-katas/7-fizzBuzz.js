@@ -34,3 +34,24 @@ function fizzbuzz(n)
   }
   return arr
 }
+
+
+function fizzBuzz(n){
+  let result = []
+
+  // changes
+  for (let i=1; i<=n; i++){
+    result.push(i)
+  }
+
+  for (let i=0; i<result.length; i++){
+    if (result[i] % 3 == 0 && result[i] % 5 == 0){
+      result.splice(i, 1, 'fizzbuzz')
+    }else if (result[i] % 5 == 0){
+      result.splice(i, 1, 'fizz')
+    }else if (result[i] % 3 == 0){
+      result.splice(i,1,'buzz')
+    }
+  }
+  return result
+}
