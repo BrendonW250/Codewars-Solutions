@@ -25,7 +25,7 @@
 function removeFruits(bag){
 
     let result = []
-
+ 
     for (let i=0; i<bag.length; i++){
         if (bag[i].includes('rotten')){
             //substring() returns the substring between 0 and the number you put in parenthesis
