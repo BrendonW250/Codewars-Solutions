@@ -14,4 +14,4 @@ function unusedDigits(...arr){
     let arrStr = arr.join('')
 
     return digits.filter((numStr) => !arrStr.includes(numStr)).join('')
-}
+} 
